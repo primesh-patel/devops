@@ -1,3 +1,5 @@
 Devops! In progress...
-what is DevOps?
+
+What is DevOps?
+
 <img width="1250" height="239" alt="Screenshot 2025-12-22 104117" src="https://github.com/user-attachments/assets/751f8fae-7c2c-4483-9f33-a9a1c846ccfe" />
