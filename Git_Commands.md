@@ -6,8 +6,13 @@ git config --global user.email "your_email@gmail.com"
 git config --list
 
 git init
+
 git add .
+
 git commit -m "message"
+
 git branch -M main
+
 git remote add origin <repo_url>
+
 git push -u origin main
