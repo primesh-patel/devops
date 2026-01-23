@@ -1,4 +1,5 @@
-# Add user-name & gmail
+**# Add user-name & gmail**
+## yahan par Git aur GitHub do chizein hain, toh in commands ke through Git ko yeh bataya ja rha ki tumhara Hosting_Platform "yeh' hai aur "usase linked email yeh" hai.
 git config --global user.name "your_github_username"
 git config --global user.email "your_email@gmail.com"
 
