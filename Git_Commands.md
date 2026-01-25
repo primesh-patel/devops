@@ -8,14 +8,82 @@ git config --global user.email "your_email@gmail.com"
 # [abhi abhi jo configuration hua hai Git aur GitHub, hua ki nahi yehi confirm karne ke liye]
 git config --list
 
-git init
+# 1️⃣ git init
 
-git add .
+👉 Is folder ko Git repository bana deta hai
 
-git commit -m "message"
+.git naam ka hidden folder create hota hai
 
-git branch -M main
+Git yahin se files track karna start karta hai
 
-git remote add origin <repo_url>
+🧠 Interpretation:
 
-git push -u origin main
+“Ab se yeh folder Git ke under aa gaya”
+
+# 2️⃣ git add .
+
+👉 Saari files staging area mein daal deta hai
+
+. = current folder ki sab files & folders
+
+Git ko bolte ho: “In files ko next commit ke liye ready rakho”
+
+🧠 Interpretation:
+
+“Yeh changes important hain, commit ke liye pakad lo”
+
+# 3️⃣ git commit -m "message"
+
+👉 Staged files ka snapshot save kar leta hai
+
+"message" → tumhara reason / description
+
+Commit = ek checkpoint / save point
+
+🧠 Interpretation:
+
+“Is exact moment par project ka state save kar lo”
+
+# 4️⃣ git branch -M main
+
+👉 Current branch ka naam main bana deta hai
+
+-M = force rename (chahe pehle master ho)
+
+GitHub ka default branch = main
+
+🧠 Interpretation:
+
+“Is branch ko officially main naam de do”
+
+# 5️⃣ git remote add origin <repo_url>
+
+👉 Local repo ko GitHub repo se jod deta hai
+
+origin = remote ka short name (standard)
+
+<repo_url> = GitHub repository ka address
+
+🧠 Interpretation:
+
+“Is local project ka remote home yeh GitHub repo hai”
+
+📌 Example:
+
+git remote add origin https://github.com/primesh-patel/primesh-devops.git
+
+# 6️⃣ git push -u origin main
+
+👉 Local main branch ko GitHub par bhej deta hai
+
+push = upload
+
+origin = GitHub
+
+main = branch
+
+-u = future ke liye default set
+
+🧠 Interpretation:
+
+“Ab local main aur GitHub main linked hain”
