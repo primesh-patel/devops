@@ -139,12 +139,19 @@ Commit पर click करके changes देख सकते हैं
 🔄 Basic Workflow Summary
 bash
 Copy code
+
 git init
+
 git add .
+
 git commit -m "message"
+
 git branch -M main
+
 git remote add origin <repo_url>
+
 git push -u origin main
+
 📚 What We Learned Today
 Working directory से project push करना
 
